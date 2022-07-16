@@ -22,10 +22,10 @@
 //             reject("not divided")
 //         }
 //     })
-// }
-// chackNumbers(10,3)
 //     .then((data)=>{h1_line.innerText=data})
 //     .catch((err)=>{h1_line.innerText=err})
+// }
+// chackNumbers(10,5)
 
 
 // function chackIfNumInArray(num1, myArray) {
@@ -59,9 +59,9 @@
 // async function getAdrresses() {
 //     try {
 //         h1_line.innerHTML = '<img src="Loading_2.gif" >'
-//         await fetch("https://moviesmern.herokuapp.com/movies/all")
-//             .then(data => { console.log(data) }
-//             )
+//          await fetch("https://moviesmern.herokuapp.com/movies/all")
+//             .then((res)=>console.log(res))
+            
 //     }
 //     catch (err) {
 //         alert(err)
@@ -72,6 +72,7 @@
 //     }
 
 // }
+// getAdrresses()
 // let myBTN3 = document.getElementById("myBTN3")
 // myBTN3.addEventListener("click", () => { getAdrresses() })
 
@@ -91,18 +92,18 @@
 // let myBTN3 = document.getElementById("myBTN3")
 // myBTN3.addEventListener("click", () => { fetchfun() })
 
-async function fetchfun2() {
-    try {
-        h1_line.innerHTML = '<img src="Loading_2.gif" >'
-        await fetch('https://placekeanu.com/200/150')
-        .then(data =>(h2_line=data))
-    } catch (error) {
-        alert("error")
-    }
-    finally{
-        h1_line = ""
+// async function fetchfun2() {
+//     try {
+//         h1_line.innerHTML = '<img src="Loading_2.gif" >'
+//         await fetch('https://placekeanu.com/200/150')
+//         .then(data =>(h2_line=data))
+//     } catch (error) {
+//         alert("error")
+//     }
+//     finally{
+//         h1_line = ""
         
-    }
+//     }
 
-}
-fetchfun2()
+// }
+// fetchfun2()
