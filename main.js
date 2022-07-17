@@ -122,27 +122,27 @@
 // console.log(newcourse.grade.sort((a,b)=> a-b)); 
 
 class car {
-    constructor(num_w,engien,color){
-        this.num_w=num_w
-        this.engien=engien
-        this.color=color
-    }
-    printcarInfo(){
-        return `${this.num_w}${this.engien}${this.color}`
-    }
-}
+//     constructor(num_w,engien,color){
+//         this.num_w=num_w
+//         this.engien=engien
+//         this.color=color
+//     }
+//     printcarInfo(){
+//         return `${this.num_w}${this.engien}${this.color}`
+//     }
+// }
 
-class BMW extends car{
-    constructor(num_w,engien,color,name){
-        super(num_w,engien,color)
-        this.name=name
-    }
-    getInfo(){
-        return `${super.printcarInfo()}${this.name}`
-    }
-    get hide(){
-        return        this.name.toUpperCase().substr(0,1)+this.name.substr(1,this.name.length-2)+this.name.toUpperCase().substr(this.name.length-1,1)
-    }
-}
-const newBMW = new BMW (4,2000,"red","daniel")
-console.log(newBMW.hide);
+// class BMW extends car{
+//     constructor(num_w,engien,color,name){
+//         super(num_w,engien,color)
+//         this.name=name
+//     }
+//     getInfo(){
+//         return `${super.printcarInfo()}${this.name}`
+//     }
+//     get hide(){
+//         return        this.name.toUpperCase().substr(0,1)+this.name.substr(1,this.name.length-2)+this.name.toUpperCase().substr(this.name.length-1,1)
+//     }
+// }
+// const newBMW = new BMW (4,2000,"red","daniel")
+// console.log(newBMW.hide);
