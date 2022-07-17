@@ -121,7 +121,7 @@
 // // console.log(newcourse.student.sort()); 
 // console.log(newcourse.grade.sort((a,b)=> a-b)); 
 
-class car {
+// class car {
 //     constructor(num_w,engien,color){
 //         this.num_w=num_w
 //         this.engien=engien
